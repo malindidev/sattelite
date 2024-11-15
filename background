@@ -1,0 +1,8 @@
+// Based on weather condition (sunny, rainy, cloudy), change background
+if (weatherCondition === 'Clear') {
+    document.body.style.backgroundImage = "url('clear-sky.jpg')";
+} else if (weatherCondition === 'Rain') {
+    document.body.style.backgroundImage = "url('rainy-sky.jpg')";
+} else if (weatherCondition === 'Clouds') {
+    document.body.style.backgroundImage = "url('cloudy-sky.jpg')";
+}
