@@ -1,0 +1,8 @@
+#weather-info {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#weather-info.visible {
+    opacity: 1;
+}
