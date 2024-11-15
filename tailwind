@@ -1,0 +1,11 @@
+<div class="flex flex-col items-center justify-center p-5">
+    <h1 class="text-4xl font-semibold text-gray-800">Weather Tracker</h1>
+    <input id="city-input" type="text" placeholder="Enter city name" class="mt-4 p-3 border rounded-md shadow-lg">
+    <button onclick="getWeatherData()" class="mt-2 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">Get Weather</button>
+</div>
+
+<div id="weather-info" class="mt-5 text-center">
+    <h2 class="text-2xl font-bold" id="city-name">City</h2>
+    <p id="temp" class="text-xl">Temperature: --°C</p>
+    <p id="conditions" class="text-lg">Conditions: --</p>
+</div>
